@@ -3,6 +3,7 @@
 [![isbngui.jpg](https://i.postimg.cc/Dypk1pKD/isbngui.jpg)](https://postimg.cc/nCmPJkrY)
 
 ## ISBN codes for book are often in the format such as 9-895-4253-142-1, however many applications require no punctuation, this GUI aids in the removal of punctuation marks
+### Paste in the ISBN, press the button to receive the output ISBN ready for copying into SAP ERP systems.
 # PART 1
 ## Code created with Python 3 and tkinter GUI library.
 
@@ -36,7 +37,8 @@ canvas1.create_window(70, 55, window=button1)
 
 
 
-root.mainloop()```
+root.mainloop()
+```
 
 ### Paste in the ISBN, press the button to receive the output ISBN ready for copying into SAP ERP systems.
 ![isbngui.jpg](https://i.postimg.cc/Dypk1pKD/isbngui.jpg)](https://postimg.cc/nCmPJkrY)
