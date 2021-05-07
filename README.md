@@ -1,7 +1,8 @@
 # ISBN-tools
 
 [![isbngui.jpg](https://i.postimg.cc/Dypk1pKD/isbngui.jpg)](https://postimg.cc/nCmPJkrY)
-ISBN codes for book are often in the format such as 9-895-4253-142-1, however many applications require no punctuation, this GUI aids in the removal of punctuation marks
+
+## ISBN codes for book are often in the format such as 9-895-4253-142-1, however many applications require no punctuation, this GUI aids in the removal of punctuation marks
 
 ## Code created with Python 3 and tkinter GUI library.
 
