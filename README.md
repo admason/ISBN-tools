@@ -3,7 +3,7 @@
 [![isbngui.jpg](https://i.postimg.cc/Dypk1pKD/isbngui.jpg)](https://postimg.cc/nCmPJkrY)
 
 ## ISBN codes for book are often in the format such as 9-895-4253-142-1, however many applications require no punctuation, this GUI aids in the removal of punctuation marks
-
+# PART 1
 ## Code created with Python 3 and tkinter GUI library.
 
 ```import math as m
@@ -41,3 +41,16 @@ root.mainloop()```
 ### Paste in the ISBN, press the button to receive the output ISBN ready for copying into SAP ERP systems.
 ![isbngui.jpg](https://i.postimg.cc/Dypk1pKD/isbngui.jpg)](https://postimg.cc/nCmPJkrY)
 
+# PART 2: For lists of ISBNs:
+```
+list = ['6-59655','6456-44','955-852']
+
+def isbn(list):
+    for book in list:
+        remove = set('-')
+        no_punc = ''.join(cha for cha in book if not cha in remove)
+        print(no_punc)
+isbn(list)
+
+
+```
