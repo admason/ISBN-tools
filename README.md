@@ -54,5 +54,9 @@ def isbn(list):
         print(no_punc)
 isbn(list)
 
-
+>>> 
+659655
+645644
+955852
+>>> 
 ```
