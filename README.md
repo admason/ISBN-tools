@@ -3,7 +3,8 @@ ISBN codes for book are often in the format such as 9-895-4253-142-1, however ma
 
 ## Code created with Python 3 and tkinter GUI library.
 
-```from tkinter import *
+```import math as m
+from tkinter import *
 from tkinter.messagebox import *
 import tkinter as tk
 
@@ -28,13 +29,12 @@ def isbn():
   
     
 button1 = tk.Button(text='ISBN for SAP', command=isbn)
-canvas1.create_window(70, 80, window=button1)
+canvas1.create_window(70, 55, window=button1)
 
-entry2= tk.Entry(root)
-canvas1.create_window(150, 25 , window=entry2)
+
 
 root.mainloop()```
 
 ### Paste in the ISBN, press the button to receive the output ISBN ready for copying into SAP ERP systems.
-
+[![isbngui.jpg](https://i.postimg.cc/Dypk1pKD/isbngui.jpg)](https://postimg.cc/nCmPJkrY)
 
